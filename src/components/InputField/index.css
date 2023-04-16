@@ -1,0 +1,57 @@
+.input-field-container {
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  position: relative;
+  min-width: 240px;
+  width: 100%;
+  background-color: rgba(26, 26, 26, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* @media (min-width: 576px) {
+  .input-field-container {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .input-field-container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-field-container {
+    width: 600px;
+  }
+} */
+
+.input-field-container input {
+  border: none;
+  font-size: 15px;
+  outline: 0;
+  padding: 16px 0 10px;
+  margin-left: 5px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+label {
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  transition: all 0.1s ease-in-out;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Move the label to top-left when input is focused */
+.input-field-container.active label {
+  transform: translate(0, 4px) scale(0.75);
+  top: -5px;
+  left: 5px;
+  font-size: 12px;
+}

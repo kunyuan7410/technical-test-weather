@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #6c40b3;
+  --background-image: url("./assets/bg-light.png");
+  --text--color: #000000;
+}
+
+[data-theme="dark"] {
+  --primary-color: #28124d;
+  --background-image: url("./assets/bg-dark.png");
+  --text-color: #ffffff;
+}
+
+body {
+  background-image: var(--background-image);
+  background-size: cover;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+button {
+  background-color: var(--text-color);
+}
+
+.theme-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
