@@ -2,8 +2,12 @@ Hi Justin here,
 
 To run the project, please follow the steps below:
 
-1. Open the terminal and navigate to the project directory.
+1. Download or clone the project to your local machine.
 
-2. Run 'npm install' to install all the necessary dependencies.
+2. Open the project in Visual Studio Code.
 
-3. After the installation is complete, run 'npm run dev' to start the development server.
+3. Open the terminal in Visual Studio Code.
+
+4. In the terminal, run `npm install` to install all the necessary dependencies.
+
+5. After the installation is complete, run `npm run dev` to start the development server.
