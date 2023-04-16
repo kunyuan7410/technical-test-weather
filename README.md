@@ -11,3 +11,5 @@ To run the project, please follow the steps below:
 4. In the terminal, run `npm install` to install all the necessary dependencies.
 
 5. After the installation is complete, run `npm run dev` to start the development server.
+
+ Let me know if you have any further questions!
