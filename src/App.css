@@ -1,13 +1,9 @@
 :root {
-  --primary-color: #6c40b3;
   --background-image: url("./assets/bg-light.png");
-  --text--color: #000000;
 }
 
 [data-theme="dark"] {
-  --primary-color: #28124d;
   --background-image: url("./assets/bg-dark.png");
-  --text-color: #ffffff;
 }
 
 body {

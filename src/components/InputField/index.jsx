@@ -5,7 +5,6 @@ const InputField = ({ labelName, inputClassName, ...props }) => {
   const [isActive, setIsActive] = useState(false);
 
   function handleFocus() {
-    console.log("focus");
     setIsActive(true);
   }
 
