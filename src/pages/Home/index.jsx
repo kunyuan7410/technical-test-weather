@@ -11,7 +11,7 @@ import InputField from "../../components/InputField";
 import sunImage from "../../assets/sun.png";
 
 import "./index.css";
-import HistoryItem from "../../components/HistoryItem";
+import ListItem from "../../components/ListItem";
 
 const Home = () => {
   const [query, setQuery] = useState("");
@@ -106,9 +106,10 @@ const Home = () => {
                 {searchHistory.map((history, index) => {
                   return (
                     <div key={index}>
-                      <HistoryItem
-                        history={history}
-                        onSearch={handleSearchHistory}
+                      <ListItem
+                        name={history.location}
+                        date={history.dateTime}
+                        onSearch={() => handleSearchHistory(history)}
                         onDelete={() => handleDelete(index)}
                       />
                     </div>

@@ -1,4 +1,4 @@
-.history-item-container {
+.list-item-container {
   background-color: rgba(26, 26, 26, 0.5);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0px 10px 0 15px;
@@ -10,7 +10,7 @@
   margin-bottom: 15px;
 }
 
-.history-item-datetime {
+.list-item-datetime {
   position: absolute;
   right: 95px;
   top: 4px;
@@ -19,14 +19,13 @@
   font-size: 14px;
 }
 
-.history-item-end {
+.list-item-end {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* align-self: flex-end; */
 }
 
-.history-item-end button {
+.list-item-end button {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -38,35 +37,35 @@
   position: relative;
 }
 
-.history-item-end button .icon {
+.list-item-end button .icon {
   position: absolute;
   top: 8px;
   right: 8px;
 }
 
 @media (max-width: 429px) {
-  .history-item-container {
+  .list-item-container {
     padding: 10px 10px 10px 15px;
   }
-  .history-item-location {
+  .list-item-name {
     position: relative;
     top: -9px;
   }
-  .history-item-datetime {
+  .list-item-datetime {
     left: 13px;
     top: 18px;
   }
 }
 
 @media (min-width: 430px) and (max-width: 599px) {
-  .history-item-container {
+  .list-item-container {
     padding: 10px 10px 10px 15px;
   }
-  .history-item-location {
+  .list-item-name {
     position: relative;
     top: -7px;
   }
-  .history-item-datetime {
+  .list-item-datetime {
     left: 13px;
     top: 16px;
   }
